@@ -1,0 +1,12 @@
+ML ep2 by jiaojiao
+
+
+cd  change directory （更改目录）
+mkdir make directory
+touch
+sudo super user do 
+ls   list
+date
+mv
+rm
+
