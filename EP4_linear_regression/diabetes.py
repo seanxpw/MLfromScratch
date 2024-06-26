@@ -7,7 +7,8 @@ from sklearn.linear_model import RidgeCV, LassoCV
 
 
 # dataset diabetes
-diabetes_dataset = load_diabetes()
+diabetes_dataset = load_diabetes() # https://www4.stat.ncsu.edu/~boos/var.select/diabetes.tab.txt
+
 diabetes_data = diabetes_dataset["data"]
 diabetes_target = diabetes_dataset["target"]
 X_train, X_test, y_train, y_test = train_test_split(diabetes_data,
